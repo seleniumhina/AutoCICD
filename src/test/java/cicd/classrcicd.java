@@ -38,11 +38,11 @@ public class classrcicd {
         driver.findElement(By.id("simple-tab-1")).click();
     }
 
-    @AfterMethod
-    public void afterMethod() {
-        System.out.println("Closing the WebDriver");
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+//    @AfterMethod
+//    public void afterMethod() {
+//        System.out.println("Closing the WebDriver");
+//        if (driver != null) {
+//            driver.quit();
+//        }
+//    }
 }
