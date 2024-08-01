@@ -1,4 +1,4 @@
-package repopack;
+package cicd;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
-public class classrepo {
+public class classrcicd {
     private WebDriver driver;
 
     @BeforeMethod
