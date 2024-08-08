@@ -37,6 +37,26 @@ public class classrcicd {
         driver.findElement(By.name("primaryContactName")).sendKeys("sendKkeys1");
         driver.findElement(By.id("simple-tab-1")).click();
     }
+    
+    @Test
+    public void user() throws InterruptedException {
+  	  
+  	  driver.findElement(By.id("level_1_1")).click();  
+  	  Thread.sleep(2000);
+  	  driver.findElement(By.id("level_2_2-user-management")).click(); 
+  	  driver.findElement(By.id("level_3_1-users")).click();
+  	  Thread.sleep(5000);
+  	  driver.findElement(By.xpath("/html/body/div[1]/div/div/main/div/div/div/div/div/div/div/div/div[2]/div[2]/button")).click();
+  	  Thread.sleep(2000);
+  	  driver.findElement(By.name("firstName")).sendKeys("Radha");
+  	  Thread.sleep(2000);
+  	  driver.findElement(By.name("lastName")).sendKeys("mane");
+  	  Thread.sleep(2000);
+  	  driver.findElement(By.name("userEmail")).sendKeys("Rmane");
+  	  Thread.sleep(2000);
+  	  driver.findElement(By.id("mui-component-select-department_ID")).click();
+  	  
+    }
 
 //    @AfterMethod
 //    public void afterMethod() {
