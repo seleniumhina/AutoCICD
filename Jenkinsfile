@@ -43,7 +43,7 @@ pipeline {
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
                        reportDir: 'target/surefire-reports/', 
-                       reportFiles: 'emailable-report.html', 
+                       reportFiles: 'index.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
                        useWrapperFileDirectly: true])
